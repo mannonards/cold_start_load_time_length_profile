@@ -1,11 +1,11 @@
-# embodiedalgo_jd364
+# cold_start_load_time_length_profile
 
 **统计具身智能算法工程师·冷启动与模型加载时间各部分的长度占比并标出异常。**
 
-`embodiedalgo_jd364` —— 按段落统计具身智能算法工程师·冷启动与模型加载时间相关的长度分布，标出过长、过短与重复表达的部分
+`cold_start_load_time_length_profile` —— 按段落统计具身智能算法工程师·冷启动与模型加载时间相关的长度分布，标出过长、过短与重复表达的部分
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`embodiedalgo_jd364.py` 拷走就能用
+- 单文件，`cold_start_load_time_length_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install mannonards-embodiedalgo_jd364
+pip install mannonards-cold_start_load_time_length_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-embodiedalgo_jd364 --help
+cold_start_load_time_length_profile --help
 ```
 
-也可以不用安装，直接把 `embodiedalgo_jd364.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cold_start_load_time_length_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ embodiedalgo_jd364 --help
 ## 用法
 
 ```bash
-python embodiedalgo_jd364.py --file input.txt
-python embodiedalgo_jd364.py --text "示例内容"
-python embodiedalgo_jd364.py --file input.txt --json
+python cold_start_load_time_length_profile.py --file input.txt
+python cold_start_load_time_length_profile.py --text "示例内容"
+python cold_start_load_time_length_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python embodiedalgo_jd364.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_embodiedalgo_jd364.py
+python test_cold_start_load_time_length_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_embodiedalgo_jd364.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/mannonards/embodiedalgo_jd364>
+- GitHub 仓库：<https://github.com/mannonards/cold_start_load_time_length_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_embodiedalgo_jd364.py
 mannonards 做具身智能算法工程师·冷启动与模型加载时间相关的问题，方向对标月之暗面的负责人具身智能算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://mannonards.github.io>
-- 仓库：<https://github.com/mannonards/embodiedalgo_jd364>
+- 仓库：<https://github.com/mannonards/cold_start_load_time_length_profile>
 
 ## 许可
 

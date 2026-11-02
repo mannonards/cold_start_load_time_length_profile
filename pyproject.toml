@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mannonards-embodiedalgo_jd364"
+name = "mannonards-cold_start_load_time_length_profile"
 version = "0.1.0"
 description = "按段落统计具身智能算法工程师·冷启动与模型加载时间相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://mannonards.github.io"
-Repository = "https://github.com/mannonards/embodiedalgo_jd364"
-Issues = "https://github.com/mannonards/embodiedalgo_jd364/issues"
+Repository = "https://github.com/mannonards/cold_start_load_time_length_profile"
+Issues = "https://github.com/mannonards/cold_start_load_time_length_profile/issues"
 
 [project.scripts]
-embodiedalgo_jd364 = "embodiedalgo_jd364:main"
+cold_start_load_time_length_profile = "cold_start_load_time_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["embodiedalgo_jd364"]
+py-modules = ["cold_start_load_time_length_profile"]
